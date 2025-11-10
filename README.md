@@ -69,6 +69,22 @@ Future Improvements:
 
 *All personal data has been anonymised in compliance with GDPR*
 
+How to Run This Project
+1- Close this repository: 
+git clone https://github.com/dal3ks/Cafe-Analytics-Pilot.git
+cd Cafe-Analytics-Pilot
 
-  
+2- Prepare the raw data
+Place provided raw_data.txt file into the data/raw/ folder
+
+3- Run the cleaning script
+Open cleaning script.py in VS Code or your IDE
+Runt the file generate cleaned_data.csv inside data/processed/
+
+4- Visualise in Power BI
+Open Power BI Desktop
+Load data/processed/cleaned_data.csv
+Explore visuals for Total Sales, Proft, Transactions and Payment Trends.
+
+
   

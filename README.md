@@ -35,13 +35,13 @@ The goal of this pilot was to help the café chain understand:
 - Average Spend Per Customer
 - Card vs Cash Sales %
 ---
-**Visuals**
-  -Sales by Branch (Bar Chart)
-  -Top Drinks (Column Chart)
-  -Sales Trend and Forecast (Line Chart with Analytics)
-  -Payment Type Breakdown (Pie Chart)
+### Visuals
+-**Sales by Branch** (Bar Chart)
+-**Top Drinks** (Column Chart)
+-**Sales Trend and Forecast** (Line Chart with Analytics)
+-**Payment Type Breakdown** (Pie Chart)
 ---
-## Insights & Recommendations
+### Insights & Recommendations
 -**Woking** is the best performing branch by total sales
 -**Macchiato** is the most popular drink, followed by **Espresso**
 -**Card payments** slightly outnumber ** cash transactions** (around 52%)
@@ -67,6 +67,26 @@ This project strengthend my skills in:
 -Deploy the dashboard to a cloud workspace for scalability
 
 ---
+
+### Project Structure
+
+```plaintext
+Cafe-Analytics-Pilot/
+├── data/
+│   ├── raw_data.txt              # Original raw text data before cleaning
+│   └── cleaned_data.csv          # Processed dataset ready for analysis
+│
+├── src/
+│   └── cleaning_script.py        # Python script used to clean and anonymise data
+│
+├── powerbi/
+│   └── cafe_dashboard.pbix       # Power BI dashboard file with KPIs and visualisations
+│
+├── README.md                     # Project overview, setup instructions, and usage guide
+└── .gitignore                    # (Optional) Ignore unnecessary files like cache or temp data
+```
+
+Data Flow: Raw data → cleaned & anonymised in Python → visualised in Power BI.
 
 ### How to Run This Project
 

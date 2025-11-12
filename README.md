@@ -1,7 +1,10 @@
 ## Cafe-Analytics-Pilot
-Data analytics pilot project for a local café chain — analysing sales, profit, and customer buying habits using Python and Power BI. *All customer data was **anonymised** at the ingestion stage to remove any personal identifiers*.
-<img width="1444" height="861" alt="image" src="https://github.com/user-attachments/assets/e36b99eb-c43d-4899-95ed-797ab34939f7" />
+Data analytics pilot project for a local café chain — analysing sales, profit, and customer buying habits, removed PII using Python and Power BI. 
+
 *Final interactive Power BI dashboard showcasing sales, trends, customer insights and forecasts.*
+
+<img width="1444" height="861" alt="image" src="https://github.com/user-attachments/assets/e36b99eb-c43d-4899-95ed-797ab34939f7" />
+
 ---
 ## Project Overview
 The goal of this pilot was to help the café chain understand:
@@ -14,7 +17,6 @@ The goal of this pilot was to help the café chain understand:
 **Python (VS Code)** Data Cleaning and anonymisation
 ** Power BI** Interactive dashboard and visual analytics
 **Github** Documentation and version control
-
 ---
 ## Data Process
 1. Extracted raw café transaction data from a text file
@@ -23,22 +25,21 @@ The goal of this pilot was to help the café chain understand:
    - Corrected malformed entries.  
    - Exported to `cleaned_data.csv`.
 3. Loaded the cleaned data into Power BI for visualisation.
-
 ---
-##Dashboard Features:
+## Dashboard Features
+
 **KPIS:**
 - Total Sales (£)
 - Profit (£)
 - Transactions Count
 - Average Spend Per Customer
 - Card vs Cash Sales %
-
+---
 **Visuals**
   -Sales by Branch (Bar Chart)
   -Top Drinks (Column Chart)
   -Sales Trend and Forecast (Line Chart with Analytics)
   -Payment Type Breakdown (Pie Chart)
-
 ---
 ## Insights & Recommendations
 -**Woking** is the best performing branch by total sales
@@ -46,7 +47,6 @@ The goal of this pilot was to help the café chain understand:
 -**Card payments** slightly outnumber ** cash transactions** (around 52%)
 -Sales dipped mid-year but show an **upward recovery** towards winter- suggesting **seasonal demand**
 -Recommend adding loyalty incentives or promotions for slower months
-
 ---
 ## Deliverables
 | File | Description |
@@ -54,22 +54,21 @@ The goal of this pilot was to help the café chain understand:
 - `cleaned_data.csv` :Processed dataset used in Power BI 
 - `Cafe_Analytics_Pilot.pbix`: Power BI dashboard 
 - `Cafe_Analytics_Pilot_Client_Presentation.pptx`: Client-facing summary presentation 
-
+---
 ## Project Reflection
 This project strengthend my skills in:
 - Data cleaning and ETL with Python
 - Power BI dashboard design and storytelling
 - Version control with GitHub
 - Translating data insights into business recommendations
- 
-Future Improvements:
+---
+## Future Improvements
 -Automate the ETL piple using a database connection
 -Deploy the dashboard to a cloud workspace for scalability
-----
 
-*All personal data has been anonymised in compliance with GDPR*
+---
 
-How to Run This Project
+## How to Run This Project
 1- Close this repository: 
 git clone https://github.com/dal3ks/Cafe-Analytics-Pilot.git
 cd Cafe-Analytics-Pilot
@@ -85,6 +84,14 @@ Runt the file generate cleaned_data.csv inside data/processed/
 Open Power BI Desktop
 Load data/processed/cleaned_data.csv
 Explore visuals for Total Sales, Proft, Transactions and Payment Trends.
+---
 
+---
+## Power BI Dashboard
+The final dashboard is available in:
+[`powerbi/Cafe_Analytics_Pilot.pbix`](powerbi/Cafe_Analytics_Pilot.pbix)
+
+Open it in **Power BI Desktop** to explore the interactive visualisations and KPIs.
+*All personal data has been anonymised in compliance with GDPR*
 
   

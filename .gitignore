@@ -1,0 +1,56 @@
+# -----------------------------
+# General
+# -----------------------------
+*.log
+*.tmp
+*.bak
+*.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Python cache and environment
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv
+.env/
+.venv/
+.ipynb_checkpoints/
+
+# -----------------------------
+# Data files
+# -----------------------------
+# Ignore raw or intermediate data
+data/raw/*
+!data/raw/README.md
+
+# Keep processed data (safe and anonymised)
+!data/processed/
+!data/processed/cleaned_data.csv
+
+# -----------------------------
+# Power BI files
+# -----------------------------
+# Keep only the final dashboard in /powerbi/
+powerbi/*.pbix
+!powerbi/cafe_dashboard.pbix
+
+# -----------------------------
+# OS / IDE files
+# -----------------------------
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+
+# -----------------------------
+# Temporary or local files
+# -----------------------------
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z

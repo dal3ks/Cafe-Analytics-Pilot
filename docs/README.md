@@ -6,7 +6,9 @@ This folder contains all supporting materials for the **Cafe Analytics Pilot** p
 
 ### Contents
 
-- **architecture_diagram.png** – Visual representation of the project workflow (data flow from raw input → Python cleaning → Power BI visualisation).  
+- **architecture_diagram.png** – Visual representation of the project workflow (data flow from raw input → Python cleaning → Power BI visualisation).
+  <img width="643" height="486" alt="image" src="https://github.com/user-attachments/assets/013bddfa-ef49-44dd-a2c8-12b545130a15" />
+
 - **whiteboard_session.png** – Snapshot of project planning and brainstorming.  
 - **Cafe_Analytics_Pilot_Presentation.pptx** – Final project presentation slides.  
 

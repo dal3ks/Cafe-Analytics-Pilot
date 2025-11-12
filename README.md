@@ -68,22 +68,22 @@ This project strengthend my skills in:
 
 ---
 
-## How to Run This Project
-1- Close this repository: 
-git clone https://github.com/dal3ks/Cafe-Analytics-Pilot.git
-cd Cafe-Analytics-Pilot
+### How to Run This Project
 
-2- Prepare the raw data
-Place provided raw_data.txt file into the data/raw/ folder
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/dal3ks/Cafe-Analytics-Pilot.git
+   cd Cafe-Analytics-Pilot
+2. Prepare the raw data
+   Place the provided raw_data.txt file into the data/raw/ folder.
 
-3- Run the cleaning script
-Open cleaning script.py in VS Code or your IDE
-Runt the file generate cleaned_data.csv inside data/processed/
+3. Run the cleaning script
+   Open cleaning_script.py in VS Code (or your IDE) and run it.
+   This will generate cleaned_data.csv inside data/processed/.
 
-4- Visualise in Power BI
-Open Power BI Desktop
-Load data/processed/cleaned_data.csv
-Explore visuals for Total Sales, Proft, Transactions and Payment Trends.
+4. Visualise in Power BI
+   Open Power BI Desktop → Load data/processed/cleaned_data.csv.
+   Explore visuals for Total Sales, Profit, Transactions, and Payment Trends.
 ---
 
 ---
